@@ -228,3 +228,65 @@ h3 {
 	}
 
 }	
+@media screen and (max-width: 375px) {
+
+.container nav ul {
+		display: none;
+	}
+
+	.background-default {
+		width: 100%;
+	}
+	
+	.background {
+		clear: both;
+		width: 96%;
+		box-shadow: none;
+		height: 300px;
+	}
+
+	.mobile-menu {
+  		float: right;
+  		margin: 26px;
+	}
+
+	.hamburger {
+  		width: 35px;
+  		height:5px;
+  		background-color: #f9e42e;
+  		margin-bottom: 3px;
+
+	}
+
+	.container {
+  		width: 100%;
+	}
+
+	.mobile-menu-options {
+  		text-align: center;
+	}
+
+	.mobile-menu-options li a {
+  		color: white;
+	}
+
+	.videointro {
+		background-color: orange;
+	    width: 100%;
+		padding-left: 27px;
+	    margin: auto;
+	    height:auto;
+	}
+
+	.videointro iframe {
+		width: 75% !important;
+	    height: 50%!important;
+	    padding: 6%;
+	}
+
+}	
+
+}
+
+
+
